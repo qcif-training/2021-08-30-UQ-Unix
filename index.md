@@ -174,8 +174,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> There are no specific requirements for this workshop. Participants will be provided with access to a university computer with required software pre-installed
 </p>
 
 {% comment %}
@@ -350,7 +349,6 @@ and end easier to find.
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
-{% endcomment %}
 
 <h2 id="setup">Setup</h2>
 
@@ -373,6 +371,7 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+{% endcomment %}
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -399,3 +398,4 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+{% endcomment %}
