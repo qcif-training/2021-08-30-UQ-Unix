@@ -174,7 +174,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> There are no specific requirements for this workshop. Participants will be provided with access to a university computer with required software pre-installed
+  <strong>Requirements:</strong> You will need to provide your own laptop computer, connected to the Eduroam wifi network and with a Unix terminal program installed (please see instructions at bottom of page). 
 </p>
 
 {% comment %}
@@ -350,6 +350,8 @@ This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 
+{% endcomment %}
+
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -371,7 +373,6 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% endcomment %}
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -389,6 +390,7 @@ to include the relevant installation instrucctions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
+{% endcomment %}
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -397,4 +399,3 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
-{% endcomment %}
